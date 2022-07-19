@@ -1,6 +1,9 @@
 body{
     margin: 0 auto;
 }
+
+                    /* Make up Banner Section */
+
 .header-section{
     display: flex;
     flex-direction: column;
@@ -10,11 +13,12 @@ body{
     margin-top: 50px;
 }
 .banner-section{
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: skyblue;
-    width: 70%;
+    background-color: rgb(1, 54, 63);
+    width: 80%;
     height: 372px;
     border-radius: 20px;
     align-content: center;
@@ -42,4 +46,76 @@ body{
 .banner-image{
     margin-right: 50px;
 }
+                    /* make up main section*/
 
+ .main-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.player-bajar{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 10px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: brown;
+    border-radius: 20px;
+}
+.links button{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid skyblue;
+    border-radius: 7px;
+}
+.blog-button{
+    background-color: burlywood;
+}
+
+.transfer-players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.players{
+    display: flex;
+    flex-direction: column;
+    height:250px;
+    background-color:aliceblue;
+    border-radius: 20px;
+}
+.players img{
+    height: 100px;
+}
+
+/* make up footer Section*/
+.footer-section{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+hr{
+    border: 1px solid gray;
+}
+.footer-menu{
+    padding: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: gray;
+    list-style-type: none;
+}
