@@ -3,6 +3,7 @@ body{
     margin: 0 auto;
 }
 
+
                     /* Make up Banner Section */
 
 .header-section{
@@ -51,6 +52,9 @@ body{
 .banner-image{
     margin-top: 100px;
     margin-bottom: -4px;
+}
+.banner-section a:hover {
+    background-color: cornflowerblue;
 }
                     /* make up main section*/
 
@@ -140,7 +144,7 @@ body{
     padding: 20px;
 }
 
-/* make up footer Section*/
+                    /* make up footer Section*/
 .footer-section{
     background-color: black;
     color: white;
