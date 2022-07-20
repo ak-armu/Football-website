@@ -89,7 +89,7 @@ body{
     border: 1px solid skyblue;
     border-radius: 7px;
 }
-#blog-button{
+#upcoming-button{
     background-color: burlywood;
 }
 
@@ -279,10 +279,10 @@ hr{
         margin: 10px;
     }
 }
-/*  view button hide fromlarge device */
+/*  For Large Device view button hide */
+
 @media screen and (min-width:769px) {
     .view-all-button{
-        display: none;
-    }
-
+          display: none;
+    }    
 }

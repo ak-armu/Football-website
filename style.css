@@ -290,7 +290,7 @@ hr{
 /*  view button hide fromlarge device */
 @media screen and (min-width:769px) {
     .view-all-button{
-        display: none;
-    }
-   
+          display: none;
+    } 
+    
 }
