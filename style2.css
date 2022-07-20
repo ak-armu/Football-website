@@ -154,6 +154,12 @@ body{
 hr{
     border: 1px solid gray;
 }
+.footer-menu-socialicon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .footer-menu{
     padding-top: 50px;
     width: 80%;
@@ -166,6 +172,20 @@ hr{
     text-decoration: none;
     color:gray
 }
+
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-link a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+
 
 
 /***********************************
