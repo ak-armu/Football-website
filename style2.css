@@ -151,7 +151,7 @@ hr{
     border: 1px solid gray;
 }
 .footer-menu{
-    padding: 50px;
+    padding-top: 50px;
     width: 80%;
     display: flex;
     justify-content: space-evenly;
@@ -172,21 +172,29 @@ hr{
 @media  screen and (max-width:576px) {
     .banner-section{
         width: 80%;
-        display: flex;
-        flex-direction: column;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
     }
     .banner-text{
         margin-left: 30px;
-        margin-right: 30px;
+        margin-bottom: 10px;
+        justify-content: space-around;
     }
     .banner-image{
         width: 100%;
-    }
+        height: 332px;
+        margin-top: 0%;
+        margin-bottom: -35px;
+    }    
     .view-all-button{
         display: none;
     }
-    
 }
+    
+    
+
 
 @media  screen and (min-width:577px) and (max-width:768px) {
     .banner-section{
@@ -266,12 +274,13 @@ hr{
         justify-content: space-around;
     }
     .footer-menu li{
-        margin: 10px;
+        margin-bottom: 10px;
     }
 }
 
 @media screen and (min-width:577px) and (max-width:768px) {
     .footer-menu{
+        width: 85%;
         display: flex;
         justify-content: space-around;
     }

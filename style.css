@@ -159,7 +159,8 @@ hr{
     border: 1px solid gray;
 }
 .footer-menu{
-    padding: 50px;
+    text-align: center;
+    padding-top: 50px;
     width: 80%;
     display: flex;
     justify-content: space-evenly;
@@ -211,7 +212,7 @@ hr{
     }
     .banner-image{
         width: 100%;
-        height: 300px;
+        height: 332px;
         margin-top: 0%;
         margin-bottom: -35px;
     }    
@@ -272,14 +273,16 @@ hr{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
     }
     .footer-menu li{
-        margin: 10px;
+        margin-bottom: 10px;
     }
 }
 
 @media screen and (min-width:577px) and (max-width:768px) {
     .footer-menu{
+        width: 85%;
         display: flex;
         justify-content: space-around;
     }
