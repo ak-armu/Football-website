@@ -166,7 +166,7 @@ hr{
     padding-top: 50px;
     width: 80%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     list-style-type: none;
 }
@@ -175,6 +175,17 @@ hr{
     color:gray
 }
 
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-link a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
 
 /***********************************
             Media Queries
